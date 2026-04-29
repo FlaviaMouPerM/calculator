@@ -42,7 +42,7 @@ buttons.forEach(function (btn) {
             mostrar.textContent = result || '0';
           } else {
             num = num.slice(0, -1);
-            mostrar.textContent = num || '0';
+            mostrar.textContent = num || result;
           }
           break;
         case '.':
